@@ -25,6 +25,8 @@ public class Palindrome {
         String word3 = "anna";
         String word4 = "madam";
 
+
+
         for (int i = 0; i < 8; i++) {
         }
 
