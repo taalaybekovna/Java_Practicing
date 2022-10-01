@@ -1,4 +1,4 @@
-package day28_arrays;
+package day29_arrays;
 
 public class ForEchLoopExample {
     public static void main(String[] args) {
