@@ -13,8 +13,10 @@ public class CharArray {
 
         String name2 = new String(letters);
         System.out.println(name2);
+        System.out.println(name2.toUpperCase());
 
         char [] letters2 = name.toCharArray();
         System.out.println(letters2);
+
     }
 }
