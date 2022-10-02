@@ -47,6 +47,12 @@ public class SplitExample {
         String [] f = family.split(">");
         System.out.println(Arrays.toString(f));
 
+        System.out.println("********************************************************");
+
+        String books = "Koran1Bible";
+        String [] b = books.split("1");
+        System.out.println(Arrays.toString(b));
+
 
     }
 }
