@@ -18,5 +18,8 @@ public class CharArray {
         char [] letters2 = name.toCharArray();
         System.out.println(letters2);
 
+        // seems it's time to update
+
+
     }
 }
