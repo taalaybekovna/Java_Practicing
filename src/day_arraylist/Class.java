@@ -28,6 +28,12 @@ public class Class {
             System.out.println("Member " + (i + 1) + " " + family.get(i));
         }
 
+        System.out.println("------------------------------------------------------------------------------");
+
+        for (String member : family){
+            System.out.println("Member: " + member);
+        }
+
 
 
 
