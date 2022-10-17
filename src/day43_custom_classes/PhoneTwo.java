@@ -28,6 +28,7 @@ public class PhoneTwo {
     double version;
 
 
+
     @Override
     public String toString() {
         return "PhoneTwo{" +
@@ -36,6 +37,15 @@ public class PhoneTwo {
                 ", memory=" + memory +
                 ", version=" + version +
                 '}';
+    }
+
+    public PhoneTwo(String name) {
+        this.name = name;
+    }
+
+    public PhoneTwo(String name, String brand) {
+        this.name = name;
+        this.brand = brand;
     }
 
     public PhoneTwo (String name, String brand, double memory, double version){
