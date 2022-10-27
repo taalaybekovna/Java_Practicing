@@ -1,4 +1,4 @@
-package day51;
+package day51.house;
 
 public class Kitchen extends House{
 
